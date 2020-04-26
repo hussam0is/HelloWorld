@@ -1,8 +1,12 @@
-
-
+/*
 exports.print_helloWorld = function(){
 var http = require('http');
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
     res.end('Hello World1!');
-}).listen(52950);};
+}).listen(8080);
+};*/
+
+console.log("hello world!")
+console.log("hello world!")
+console.log("hello world!")
