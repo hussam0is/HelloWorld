@@ -9,4 +9,4 @@ http.createServer(function (req, res) {
 
 console.log("hello world!")
 console.log("hello world!")
-console.log("hello world!"
+consoe.log("hello world!"
