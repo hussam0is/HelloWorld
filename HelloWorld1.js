@@ -7,6 +7,8 @@ http.createServer(function (req, res) {
 }).listen(8080);
 };*/
 function fun() {
+
+
     setTimeout(function () {
         console.log("1: hello world!");
         console.log("2: hello world!");
