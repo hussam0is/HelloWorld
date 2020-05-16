@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-05-16T19:35:37" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Simple Math Test" timestamp="2020-05-16T19:35:37" tests="2" file="C:\Users\DELL\WebstormProjects\HelloWorld\test\example.test.js" time="0.0000" failures="0">
+    <testcase name="Simple Math Test should return 2" time="0.0000" classname="should return 2">
+    </testcase>
+    <testcase name="Simple Math Test should return 9" time="0.0000" classname="should return 9">
+    </testcase>
+  </testsuite>
+</testsuites>
