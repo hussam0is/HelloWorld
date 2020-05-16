@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "jenkins-mocha --cobertura test/*"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/hussam0is/HelloWorld#readme",
   "devDependencies": {
+    "jenkins-mocha": "^8.0.0",
     "mocha": "^7.1.2",
     "mocha-junit-reporter": "^1.23.3"
   }
