@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "mocha",
-    "mocha-jenkins-reporter": "0.4.3"
+    "mocha-jenkins-reporter": "0.4.3",
+    "test-jenkins": "JUNIT_REPORT_PATH=/report.xml mocha --colors --reporter mocha-jenkins-reporter"
+
   },
   "repository": {
     "type": "git",
