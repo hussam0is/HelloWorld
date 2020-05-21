@@ -1,4 +1,4 @@
-<testsuite name="Mocha Tests" tests="2" failures="0" errors="1" skipped="0" timestamp="Thu, 21 May 2020 15:32:49 GMT" time="0.008">
+<testsuite name="Mocha Tests" tests="2" failures="0" errors="1" skipped="0" timestamp="Thu, 21 May 2020 15:37:51 GMT" time="0.006">
 <testcase classname="Array #indexOf()" name="should return -1 when the value is not present" time="0.003"><failure>1 == -1
 
       + expected - actual
