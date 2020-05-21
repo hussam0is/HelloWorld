@@ -1,13 +1,6 @@
-<testsuite name="Mocha Tests" tests="2" failures="0" errors="1" skipped="0" timestamp="Thu, 21 May 2020 15:37:51 GMT" time="0.006">
-<testcase classname="Array #indexOf()" name="should return -1 when the value is not present" time="0.003"><failure>1 == -1
-
-      + expected - actual
-
-      -1
-      +-1
-      
-AssertionError [ERR_ASSERTION]: 1 == -1
-    at Context.&#x3C;anonymous&#x3E; (test\test.js:5:20)
-    at processImmediate (internal/timers.js:445:21)</failure></testcase>
+<testsuite name="Mocha Tests" tests="4" failures="0" errors="0" skipped="0" timestamp="Thu, 21 May 2020 17:08:10 GMT" time="0.005">
+<testcase classname="Array #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testcase classname="Array #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testcase classname="Array #indexOf()" name="should return -1 when the value is not present" time="0"/>
 <testcase classname="Array #indexOf()" name="should return -1 when the value is not present" time="0"/>
 </testsuite>
