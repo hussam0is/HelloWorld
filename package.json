@@ -8,7 +8,7 @@
   "scripts": {
     "test": "mocha -g 'Array1'",
     "mocha-jenkins-reporter": "0.4.3",
-    "test-jenkins": "JUNIT_REPORT_PATH=/tests-report1.xml mocha --colors --reporter mocha-jenkins-reporter"
+    "test-jenkins": "JUNIT_REPORT_PATH=/tests-report.xml mocha --colors --reporter mocha-jenkins-reporter"
   },
   "repository": {
     "type": "git",
