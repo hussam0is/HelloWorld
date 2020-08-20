@@ -6,6 +6,8 @@ http.createServer(function (req, res) {
     res.end('Hello World1!');
 }).listen(8080);
 };*/
+
+
 function fun() {
 
     setTimeout(function () {
@@ -13,10 +15,7 @@ function fun() {
         console.log("2: hello world!");
         console.log("3: hello world!");
 
-    }, 3000);
+    }, 2000);
 
 }
-
-
-
 fun();
