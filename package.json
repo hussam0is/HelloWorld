@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --recursive -R xunit test/ > test-reports.xml",
     "mocha-jenkins-reporter": "0.4.3",
     "test-jenkins": "JUNIT_REPORT_PATH=/test-reports.xml mocha --colors --reporter mocha-jenkins-reporter"
   },
