@@ -1,4 +1,12 @@
-<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Sat, 22 Aug 2020 12:52:42 GMT" time="0.003">
-<testcase classname="Array1 #indexOf()" name="should return -1 when the value is not present" time="0.001"/>
-<testcase classname="Array1 #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testsuite name="Mocha Tests" tests="9" failures="0" errors="0" skipped="0" timestamp="Mon, 24 Aug 2020 11:51:13 GMT" time="0.007">
+<testcase classname="group54321 #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testcase classname="group5432 #indexOf()" name="should return -1 when the value is not present" time="0.001"/>
+<testcase classname="group5432 #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testcase classname="group543 #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testcase classname="group543 #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testcase classname="group54 #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testcase classname="group5 #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testcase classname="group5 #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testcase classname="group5 #indexOf()" name="should return -1 when the value is not present" time="0"/>
 </testsuite>
+
