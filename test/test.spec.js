@@ -8,14 +8,22 @@ const group5 = 'group5'
 describe(group1, function() {
     describe('#indexOf()', function() {
         it('should return -1 when the value is not present', function() {
-            assert.equal([1, 2, 3].indexOf(7), -1);
+            assert.equal([1, 2, 5].indexOf(5), -1);
+            function fun() {
+                setTimeout(function () {
+                    console.log("1: hello world!");
+                    console.log("2: hello world!");
+                    console.log("3: hello world!");
+                }, 30000);
+            }
+            fun();
         });
     });
 });
 describe(group2, function() {
     describe('#indexOf()', function() {
         it('should return -1 when the value is not present', function() {
-            assert.equal([1, 2, 3].indexOf(44), -1);
+            assert.equal([1, 2, 3].indexOf(2), -1);
         });
     });
 });
