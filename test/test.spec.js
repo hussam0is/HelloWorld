@@ -12,14 +12,14 @@ describe(group1+' ID:00001', function () {
         });
     });
 });
-describe(group2, function () {
+describe(group2+' ID:00002', function () {
     describe('#indexOf()', function () {
         it('should return -1 when the value is not present', function () {
             assert.equal([1, 2, 3].indexOf(2), -1);
         });
     });
 });
-describe(group2, function () {
+describe(group2+' ID:00003', function () {
     describe('#indexOf()', function () {
         it('should return -1 when the value is not present', function () {
             assert.equal([1, 2, 3].indexOf(44), -1);
@@ -27,7 +27,7 @@ describe(group2, function () {
     });
 });
 
-describe(group3, function () {
+describe(group3+' ID:00004', function () {
     describe('#indexOf()', function () {
         it('should return -1 when the value is not present', function () {
             assert.equal([1, 2, 3].indexOf(4), -1);
@@ -36,7 +36,7 @@ describe(group3, function () {
 
     });
 });
-describe(group3, function () {
+describe(group3+' ID:00005', function () {
     describe('#indexOf()', function () {
         it('should return -1 when the value is not present', function () {
             assert.equal([1, 2, 3].indexOf(4), -1);
@@ -45,7 +45,7 @@ describe(group3, function () {
 
     });
 });
-describe(group4, function () {
+describe(group4+' ID:00006', function () {
     describe('#indexOf()', function () {
         it('should return -1 when the value is not present', function () {
             assert.equal([1, 2, 3].indexOf(4), -1);
@@ -54,17 +54,7 @@ describe(group4, function () {
 
     });
 });
-describe(group5, function () {
-    describe('#indexOf()', function () {
-        it('should return -1 when the value is not present', function () {
-            assert.equal([1, 2, 3].indexOf(4), -1);
-        });
-
-
-    });
-});
-
-describe(group5, function () {
+describe(group5+' ID:00007', function () {
     describe('#indexOf()', function () {
         it('should return -1 when the value is not present', function () {
             assert.equal([1, 2, 3].indexOf(4), -1);
@@ -74,13 +64,21 @@ describe(group5, function () {
     });
 });
 
-describe(group5, function () {
+describe(group5+' ID:00008', function () {
     describe('#indexOf()', function () {
         it('should return -1 when the value is not present', function () {
             assert.equal([1, 2, 3].indexOf(4), -1);
         });
 
 
+    });
+});
+
+describe(group5+' ID:00009', function () {
+    describe('#indexOf()', function () {
+        it('should return -1 when the value is not present', function () {
+            assert.equal([1, 2, 3].indexOf(4), -1);
+        });
     });
 });
 
