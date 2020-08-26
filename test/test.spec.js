@@ -8,14 +8,15 @@ const group5 = 'group5'
 describe(group1+' ID:00001', function () {
     describe('#indexOf()', function () {
         it('should return -1 when the value is not present', function () {
-            assert.equal([1, 2, 3].indexOf(2), -1);
+            assert.equal([1, 2, 3].indexOf(5), -1);
         });
     });
 });
+
 describe(group2+' ID:00002', function () {
     describe('#indexOf()', function () {
         it('should return -1 when the value is not present', function () {
-            assert.equal([1, 2, 3].indexOf(2), -1);
+            assert.equal([1, 2, 3].indexOf(6), -1);
         });
     });
 });
